@@ -2,10 +2,14 @@
 
 namespace Devisty\Controllers;
 
-class HomeController
+use Slim\Views\Twig as View;
+
+class HomeController extends Controller
 {
+		
 		public function index($request, $response)
 		{
-			return 'Home Controller';
+			return $this->view->render($response, 'home.devisty');
 		}
 }
+
