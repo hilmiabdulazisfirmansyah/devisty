@@ -26,4 +26,8 @@ $container['view'] = function ($container){
 	return $view;
 };
 
+$container['HomeController'] = function(){
+	return new \Devisty\Controllers\HomeController;
+};
+
 require __DIR__.'/../app/routes.php';
