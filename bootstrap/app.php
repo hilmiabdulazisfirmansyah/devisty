@@ -49,4 +49,8 @@ $container['HomeController'] = function($container){
 	return new \Devisty\Controllers\HomeController($container);
 };
 
+$container['AuthController'] = function($container){
+	return new \Devisty\Controllers\Auth\AuthController($container);
+};
+
 require __DIR__.'/../app/routes.php';

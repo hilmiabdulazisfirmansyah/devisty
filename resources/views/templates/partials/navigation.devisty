@@ -4,7 +4,7 @@
 	</button>
 	<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 		<a class="navbar-brand" href="#">
-			<img class="brand" src="img/app-logo.png">
+			<img class="brand" src="{{ base_url() }}/img/app-logo.png">
 		</a>
 		<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 			<li class="nav-item">
@@ -97,7 +97,7 @@
 		<div class="btn-group">
 			
 			<button type="button" class="btn btn-dark">
-				<img class="user-image" src="img/app.png">
+				<img class="user-image" src="{{ base_url() }}/img/app.png">
 				Devisty
 			</button>
 
