@@ -1,0 +1,109 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+		<a class="navbar-brand" href="#">
+			<img class="brand" src="img/app-logo.png">
+		</a>
+		<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+			<li class="nav-item">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Dropdown-1
+					</a>
+					<div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item text-light bg-dark" href="#">dropdown list 1</a>
+						<a class="dropdown-item text-light bg-dark" href="#">dropdown list 2</a>
+						<a class="dropdown-item text-light bg-dark" href="#">dropdown list 3</a>
+					</div>
+				</li>
+			</li>
+			<li class="nav-item">
+				<li class="nav-item">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown-2
+						</a>
+						<div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item text-light bg-dark" href="#">dropdown list 1</a>
+							<a class="dropdown-item text-light bg-dark" href="#">dropdown list 2</a>
+							<a class="dropdown-item text-light bg-dark" href="#">dropdown list 3</a>
+						</div>
+					</li>
+				</li>
+			</li>
+			<li class="nav-item">
+				<li class="nav-item">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown-3
+						</a>
+						<div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item text-light bg-dark" href="#">dropdown list 1</a>
+							<a class="dropdown-item text-light bg-dark" href="#">dropdown list 2</a>
+							<a class="dropdown-item text-light bg-dark" href="#">dropdown list 3</a>
+						</div>
+					</li>
+				</li>
+			</li>
+			<li class="nav-item">
+				<li class="nav-item">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown-4
+						</a>
+						<div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item text-light bg-dark" href="#">dropdown list 1</a>
+							<a class="dropdown-item text-light bg-dark" href="#">dropdown list 2</a>
+							<a class="dropdown-item text-light bg-dark" href="#">dropdown list 3</a>
+						</div>
+					</li>
+				</li>
+			</li>
+			<li class="nav-item">
+				<li class="nav-item">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown-5
+						</a>
+						<div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item text-light bg-dark" href="#">dropdown list 1</a>
+							<a class="dropdown-item text-light bg-dark" href="#">dropdown list 2</a>
+							<a class="dropdown-item text-light bg-dark" href="#">dropdown list 3</a>
+						</div>
+					</li>
+				</li>
+			</li>
+			<li class="nav-item">
+				<li class="nav-item">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown-6
+						</a>
+						<div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item text-light bg-dark" href="#">dropdown list 1</a>
+							<a class="dropdown-item text-light bg-dark" href="#">dropdown list 2</a>
+							<a class="dropdown-item text-light bg-dark" href="#">dropdown list 3</a>
+						</div>
+					</li>
+				</li>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">link</a>
+			</li>
+		</ul>
+		<!-- Button Login -->
+		<div class="btn-group">
+			
+			<button type="button" class="btn btn-dark">
+				<img class="user-image" src="img/app.png">
+				Devisty
+			</button>
+
+			<div class="input-group-btn">
+				<a href="#" class="btn btn-dark text-light">Login</a>
+			</div>
+		</div>
+	</div>
+</nav>

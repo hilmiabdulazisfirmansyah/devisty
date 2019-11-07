@@ -1,1 +1,5 @@
-Home
+{% extends 'templates/app.devisty' %}
+
+{% block content %}
+test
+{% endblock %}
