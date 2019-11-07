@@ -22,8 +22,10 @@ Class Validator
 			}
 		}
 
+		$_SESSION['errors'] = $this->errors;
 		return $this;
 	}
+
 
 	public function failed()
 	{

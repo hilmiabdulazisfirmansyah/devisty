@@ -57,4 +57,6 @@ $container['AuthController'] = function($container){
 	return new \Devisty\Controllers\Auth\AuthController($container);
 };
 
+$app->add(new \Devisty\Middleware\ValidationErrorsMiddleware($container));
+
 require __DIR__.'/../app/routes.php';
