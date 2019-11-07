@@ -45,6 +45,10 @@ $container['view'] = function ($container){
 	return $view;
 };
 
+$container['validator'] = function ($container) {
+	return new Devisty\Validation\Validator;
+};
+
 $container['HomeController'] = function($container){
 	return new \Devisty\Controllers\HomeController($container);
 };
